@@ -6,4 +6,4 @@ class Pokemon_Model:
     self.types = types
 
   def __str__(self):
-    return("\nSocio tu bicho tiene id {}, nombre {}, tiene las habilidades {} y el socio es de tipo {}\n".format(self.id,self.name.title(),self.abilities,self.types))
+    return("\nTu pokemon tiene id {}, nombre {}, tiene las habilidades {} y el socio es de tipo {}\n".format(self.id,self.name.title(),self.abilities,self.types))
